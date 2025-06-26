@@ -8,13 +8,15 @@ import ExperienceEntry from '../templates/ExperienceEntry'
 import EducationEntry from '../templates/EducationEntry'
 import SkillList from '../templates/lists/SkillList'
 import Summary from '../templates/Summary'
+import Languages from '../templates/Languages'
 
 // Resume Data Imports from Data Directory
 import Profile from '@/data/Profile'
 import Experience from '@/data/Experience'
 import Education from '@/data/Education'
-import { ManagementSkills, FrontendSkills, BackendSkills, CICDSkills, ProjectSkills } from '@/data/Skills'
+import { Skills } from '@/data/Skills'
 import SummaryDescription from '@/data/Summary'
+import Langues from '@/data/Languages'
 
 
 export default function ExampleResumeLayout() {
@@ -29,32 +31,14 @@ export default function ExampleResumeLayout() {
 
       <ResumeSection sectionTitle='COMPETENCES' className='flex justify-between'>
         <SkillList
-          label='Force'
-          skillList={ManagementSkills}
+          skillList={Skills}
         />
-        <SkillList
-          label='Frontend'
-          skillList={FrontendSkills}
-        />
-        <SkillList
-          label='Backend'
-          skillList={BackendSkills}
-        />
-        <SkillList
-          label='CI/CD'
-          skillList={CICDSkills}
-        />
-        <SkillList
-          label='Gestion de projets'
-          skillList={ProjectSkills}
-        />
-
       </ResumeSection>
 
       {/* Work Experience with Fetured Details */}
       <ResumeSection sectionTitle='EXPERIENCES'>
-        {Experience.map((entry) => (
-          <ExperienceEntry key={entry.key} experience={entry} />
+        {Experience.map((entry, index) => (
+          <ExperienceEntry key={index} experience={entry} />
         ))}
       </ResumeSection>
 
@@ -63,6 +47,15 @@ export default function ExampleResumeLayout() {
         {Education.map((entry) => (
           <EducationEntry key={entry.degree} education={entry} />
         ))}
+      </ResumeSection>
+
+      {/* Languages */}
+      <ResumeSection sectionTitle='LANGUES'>
+        <div className='flex flex-row'>
+          {Langues.map((entry, index) => (
+            <Languages key={index} language={entry} />
+          ))}
+        </div>
       </ResumeSection>
     </Page>
   )

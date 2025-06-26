@@ -6,16 +6,16 @@ interface EducationEntryProps {
 
 export default function EducationEntry({ education }: { education: EducationEntryProps }) {
   return (
-    <div id='layout' className='px-1 pt-1 pb-1'>
+    <div id='layout' className="py-1">
 
       <div id='layout' className='flex items-center justify-between'>
         <div className='flex flex-row items-baseline'>
-          <h3 className='text-md font-bold leading-7 text-black'>
+          <h3 className='text-lg font-medium leading-7 text-black'>
             {education.degree}
           </h3>
         </div>
 
-        <div className='flex items-center text-sm text-gray-800'>
+        <div className='flex items-center text-base text-gray-800'>
           <p>
             {education.duration}
           </p>
@@ -23,7 +23,7 @@ export default function EducationEntry({ education }: { education: EducationEntr
       </div>
 
       <div id='layout' className='flex justify-between'>
-        <p className='flex items-center text-base italic leading-5 text-black text-sm'>
+        <p className='flex items-center text-base italic leading-5 text-black'>
           {education.university}
         </p>
       </div>

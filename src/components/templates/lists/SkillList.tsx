@@ -1,20 +1,19 @@
 
 interface SkillListProps {
-  label: string
+  label?: string
   skillList: {
-    key: number
     skill: string
   }[]
 }
 
 export default function SkillList({ skillList, label }: SkillListProps) {
   return (
-    <div id='layout'>
+    <div id='layout' className="py-1">
       {/* Programming Langauges */}
       <span className="font-bold">{label}</span>
-      <ul className='flex flex-col text-sm'>
-        {skillList.map((skill) => (
-          <li key={skill.key}>
+      <ul className='flex flex-row flex-wrap text-base'>
+        {skillList.map((skill, index) => (
+          <li className="mr-2" key={index}>
             {skill.skill}
           </li>
         ))}

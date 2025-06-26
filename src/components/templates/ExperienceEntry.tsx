@@ -1,28 +1,23 @@
-
-import { LocationMarkerIcon, CalendarIcon, BriefcaseIcon } from '@heroicons/react/outline'
-
 interface ExperienceEntryProps {
-  key: number
   title: string
   duration: string
   employer: string
   location: string
   details: {
-    bulletPoint: number
     entry: string
   }[]
 }
 
 export default function ExperienceEntry({ experience }: { experience: ExperienceEntryProps }) {
   return (
-    <div className='px-1 pt-1 pb-1'>
+    <div className='py-1'>
 
       {/* Position Title and Duration */}
       <div id='layout' className='flex items-center justify-between'>
-        <h3 className='text-md font-bold leading-7 text-black'>
+        <h3 className='text-lg font-medium leading-7 text-black'>
           {experience.title}
         </h3>
-        <div className='flex items-center text-sm text-gray-800'>
+        <div className='flex items-center text-base text-gray-800'>
           <p>
             {experience.duration}
           </p>
@@ -31,15 +26,15 @@ export default function ExperienceEntry({ experience }: { experience: Experience
 
       {/* Employer and Location */}
       <div id='layout' className='flex justify-between'>
-        <p className='flex items-center italic text-base leading-5 text-black text-sm'>
+        <p className='flex items-center italic text-base leading-5 text-black'>
           {experience.employer} - {experience.location}
         </p>
       </div>
 
       {/* Featured Details of Experience */}
-      <ul id='layout' className='ml-6 mt-0.5 text-sm list-disc'>
-        {experience.details.map((detail) => (
-          <li key={detail.bulletPoint}>
+      <ul id='layout' className='ml-4 mt-0.5 text-base list-disc'>
+        {experience.details.map((detail, index) => (
+          <li className="my-1" key={index}>
             {detail.entry}
           </li>
         ))}
