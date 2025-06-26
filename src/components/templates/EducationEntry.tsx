@@ -1,3 +1,5 @@
+import { FONT_COLOR } from "@/helpers/constants"
+
 interface EducationEntryProps {
   degree: string
   duration: string
@@ -23,7 +25,7 @@ export default function EducationEntry({ education }: { education: EducationEntr
       </div>
 
       <div id='layout' className='flex justify-between'>
-        <p className='flex items-center text-base italic leading-5 text-black'>
+        <p className={`flex items-center text-base italic leading-5 text-primary`}>
           {education.university}
         </p>
       </div>

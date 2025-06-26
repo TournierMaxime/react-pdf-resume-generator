@@ -1,3 +1,5 @@
+const { HEXA_COLOR } = require("./src/helpers/constants")
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
@@ -23,6 +25,9 @@ module.exports = {
         25: "6.25rem", // 100px
         26: "6.5rem", // 104px
         30: "7.5rem", // 120px
+      },
+      colors: {
+        primary: HEXA_COLOR,
       },
     },
   },

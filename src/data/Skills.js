@@ -1,5 +1,11 @@
 export const Skills = [
   {
+    skill: "Javascript",
+  },
+  {
+    skill: "Typescript",
+  },
+  {
     skill: "React",
   },
   {
@@ -27,7 +33,7 @@ export const Skills = [
     skill: "Docker",
   },
   {
-    skill: "GitHub Actions",
+    skill: "Jest",
   },
   {
     skill: "Agile",

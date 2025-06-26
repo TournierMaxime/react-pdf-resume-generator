@@ -16,14 +16,17 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": [
-        "./src/*"
-      ],
-      "~/*": [
-        "./public/*"
-      ],
+      "@/*": ["./src/*"],
+      "~/*": ["./public/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/data/Profile.js", "src/data/Skills.js"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/data/Profile.js",
+    "src/data/Skills.js",
+    "src/helpers/constants.js"
+  ],
   "exclude": ["node_modules"]
 }

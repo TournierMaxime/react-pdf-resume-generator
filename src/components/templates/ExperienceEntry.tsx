@@ -1,3 +1,5 @@
+import { FONT_COLOR, HEXA_COLOR } from "@/helpers/constants"
+
 interface ExperienceEntryProps {
   title: string
   duration: string
@@ -26,7 +28,7 @@ export default function ExperienceEntry({ experience }: { experience: Experience
 
       {/* Employer and Location */}
       <div id='layout' className='flex justify-between'>
-        <p className='flex items-center italic text-base leading-5 text-black'>
+        <p className={`flex items-center italic text-base leading-5 text-primary`}>
           {experience.employer} - {experience.location}
         </p>
       </div>

@@ -1,5 +1,6 @@
 import { MailIcon, PhoneIcon, LocationMarkerIcon } from '@heroicons/react/outline'
 import { FaLinkedin } from 'react-icons/fa'
+import { FONT_COLOR, HEXA_COLOR } from '@/helpers/constants'
 
 interface ProfileHeaderProps {
   name: string
@@ -18,12 +19,12 @@ export default function ProfileHeader({ profile }: { profile: ProfileHeaderProps
 
         {/* Name and Occupation */}
         <div id='layout' className='flex flex-col'>
-          <h1 className='text-xl font-bold text-black'>
+          <h1 className={`text-xl font-bold text-primary`}>
             {profile.name}
           </h1>
-          <p className='text-lg mt-0.5 text-gray-900'>
+          <h2 className='text-lg font-medium mt-0.5 text-black'>
             {profile.occupation}
-          </p>
+          </h2>
         </div>
 
         {/* Website, Email, and Phone Number */}

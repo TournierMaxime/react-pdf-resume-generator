@@ -1,3 +1,5 @@
+import { BG_COLOR } from "@/helpers/constants"
+
 interface LanguageProps {
   language: string
   level: string
@@ -18,7 +20,7 @@ export default function Languages({ language }: { language: LanguageProps }) {
 
       <div className="mt-1 h-2 w-full bg-gray-300 rounded-full overflow-hidden">
         <div
-          className="h-full bg-green-500 transition-all duration-300"
+          className={`h-full transition-all duration-300 bg-primary`}
           style={{ width: `${language.percentage}%` }}
         />
       </div>
