@@ -1,6 +1,6 @@
 
 interface ResumeSectionProps {
-  sectionTitle: string
+  sectionTitle?: string
   className?: string
   children?: JSX.Element[] | JSX.Element | string
 }

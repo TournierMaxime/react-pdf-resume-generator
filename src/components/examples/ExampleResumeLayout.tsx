@@ -23,7 +23,7 @@ export default function ExampleResumeLayout() {
     <Page>
       <ProfileHeader profile={Profile} />
 
-      <ResumeSection sectionTitle='SOMMAIRE'>
+      <ResumeSection>
         <Summary description={SummaryDescription} />
       </ResumeSection>
 

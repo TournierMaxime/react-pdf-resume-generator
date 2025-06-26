@@ -26,17 +26,12 @@ const Experience = [
         entry:
           "Développer et publier des librairies npm pour améliorer la productivité backend (authentification, envois de notifications).",
       },
-      {
-        bulletPoint: 5,
-        entry:
-          "Intégration d'APIs REST tierces pour alimenter les données en temps réel.",
-      },
     ],
   },
   {
     key: 2,
     title: "Développeur fullstack",
-    duration: "Octobre 2022 - Ocotbre 2024",
+    duration: "Octobre 2022 - Octobre 2024",
     employer: "Devs de France",
     location: "Nice, France",
     details: [
@@ -79,11 +74,6 @@ const Experience = [
         entry: "Gérer les litiges auprès des clients et des fournisseurs.",
       },
       {
-        bulletPoint: 3,
-        entry:
-          "Gérer les commandes fournisseurs dans la base de données et du stock.",
-      },
-      {
         bulletPoint: 4,
         entry:
           "Contrôler la qualité des retours produits en vue du remboursement client.",
@@ -100,7 +90,7 @@ const Experience = [
       {
         bulletPoint: 1,
         entry:
-          "Déployé sur lʼopération « Sentinelle » (sécurité nationale) en contexte urbain.",
+          "Déployé sur l'opération « Sentinelle » (sécurité nationale) en contexte urbain.",
       },
       {
         bulletPoint: 2,

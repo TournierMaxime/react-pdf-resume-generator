@@ -23,7 +23,7 @@ export default function EducationEntry({ education }: { education: EducationEntr
       </div>
 
       <div id='layout' className='flex justify-between'>
-        <p className='flex items-center text-base leading-5 text-black text-sm'>
+        <p className='flex items-center text-base italic leading-5 text-black text-sm'>
           {education.university}
         </p>
       </div>

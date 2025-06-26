@@ -31,7 +31,7 @@ export default function ExperienceEntry({ experience }: { experience: Experience
 
       {/* Employer and Location */}
       <div id='layout' className='flex justify-between'>
-        <p className='flex items-center text-base leading-5 text-black text-sm'>
+        <p className='flex items-center italic text-base leading-5 text-black text-sm'>
           {experience.employer} - {experience.location}
         </p>
       </div>
