@@ -1,11 +1,10 @@
 
 const Profile = {
-  name: 'John Webster',
-  occupation: 'Department Manager',
-  website: 'LinkedIn.com/john-webster',
-  email: 'JWebster@email.com',
-  phone: '123-456-7890',
-  profilePic: '/profile-pic-podpros-unsplash.jpg',
+  name: 'Maxime Tournier',
+  occupation: 'Fullstack developer',
+  website: 'tourniermaxime',
+  email: 'tourniermaxime15@gmail.com',
+  phone: '(514) 718-3739'
 }
 
 export default Profile
