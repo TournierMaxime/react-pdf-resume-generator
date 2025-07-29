@@ -1,5 +1,3 @@
-import { FONT_COLOR } from "@/helpers/constants"
-
 interface EducationEntryProps {
   degree: string
   duration: string

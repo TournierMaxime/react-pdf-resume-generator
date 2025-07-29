@@ -1,27 +1,21 @@
 export const Skills = [
   {
-    skill: "Javascript",
-  },
-  {
-    skill: "Typescript",
+    skill: "JavaScript/Typescript",
   },
   {
     skill: "React",
   },
   {
-    skill: "React Native",
+    skill: "HTML5",
   },
   {
-    skill: "Next.js",
-  },
-  {
-    skill: "Redux",
+    skill: "CSS/SASS",
   },
   {
     skill: "Node.js",
   },
   {
-    skill: "Express.js",
+    skill: "REST",
   },
   {
     skill: "PostGreSQL",
@@ -33,12 +27,15 @@ export const Skills = [
     skill: "Docker",
   },
   {
+    skill: "GitHub Actions",
+  },
+  {
     skill: "Jest",
   },
   {
-    skill: "Agile",
+    skill: "Git",
   },
   {
-    skill: "Jira",
+    skill: "Agile",
   },
 ]

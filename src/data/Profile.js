@@ -1,12 +1,26 @@
-import { JOB } from "@/helpers/constants"
+import { JOB_FR, JOB_EN } from "@/helpers/constants"
 
 const Profile = {
-  name: "Maxime Tournier",
-  occupation: JOB,
-  website: "tourniermaxime",
-  email: "tourniermaxime15@gmail.com",
-  phone: "(514) 718-3739",
-  location: "Anjou, QC",
+  fr: [
+    {
+      name: "Maxime Tournier",
+      occupation: JOB_FR,
+      website: "tourniermaxime",
+      email: "tourniermaxime15@gmail.com",
+      phone: "(514) 718-3739",
+      location: "Anjou, QC",
+    },
+  ],
+  en: [
+    {
+      name: "Maxime Tournier",
+      occupation: JOB_EN,
+      website: "tourniermaxime",
+      email: "tourniermaxime15@gmail.com",
+      phone: "(514) 718-3739",
+      location: "Anjou, QC",
+    },
+  ],
 }
 
 export default Profile

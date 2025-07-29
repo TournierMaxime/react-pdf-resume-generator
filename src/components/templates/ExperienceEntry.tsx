@@ -1,5 +1,3 @@
-import { FONT_COLOR, HEXA_COLOR } from "@/helpers/constants"
-
 interface ExperienceEntryProps {
   title: string
   duration: string

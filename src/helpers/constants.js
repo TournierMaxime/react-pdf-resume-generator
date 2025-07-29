@@ -1,12 +1,25 @@
-const JOB = "Développeur Full Stack"
+const JOB_FR = "Premier développeur de logiciel, Applications frontales"
 
-const SUMMARY =
-  "Avec 3 ans d’expérience, je développe des applications intuitives, efficaces et évolutives en React et Node.js. Curieux et pragmatique, j’aime résoudre les vrais problèmes en collaboration avec les utilisateurs et les équipes. Motivé par l’innovation, je progresse en équipe et garde toujours en tête l’impact concret de ce que je développe."
+const JOB_EN = "Intermediate Software Developer (22692)"
+
+const SUMMARY_FR =
+  "Doté d’une rigueur naturelle et d’un esprit analytique, je m’investis pleinement dans la compréhension des besoins pour proposer des solutions concrètes et durables. Autonome, mais profondément attaché au travail d’équipe, je m’appuie sur l’intelligence collective et les bonnes pratiques pour livrer des fonctionnalités de qualité, en gardant toujours à l’esprit l’impact utilisateur et métier."
+
+const SUMMARY_EN =
+  "With a natural rigor and an analytical mind, I am fully invested in understanding needs to propose concrete and sustainable solutions. Autonomous, but deeply committed to teamwork, I rely on collective intelligence and best practices to deliver quality features, always keeping in mind the user and business impact."
 
 const BG_COLOR = "bg-blue-500"
 
 const FONT_COLOR = "text-blue-500"
 
-const HEXA_COLOR = "#821E82"
+const HEXA_COLOR = "#006ac3"
 
-export { JOB, SUMMARY, BG_COLOR, FONT_COLOR, HEXA_COLOR }
+export {
+  JOB_FR,
+  JOB_EN,
+  SUMMARY_FR,
+  SUMMARY_EN,
+  BG_COLOR,
+  FONT_COLOR,
+  HEXA_COLOR,
+}
