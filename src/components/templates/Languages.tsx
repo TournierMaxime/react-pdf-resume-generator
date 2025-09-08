@@ -1,10 +1,4 @@
-import { BG_COLOR } from "@/helpers/constants"
-
-interface LanguageProps {
-  language: string
-  level: string
-  percentage: number
-}
+import type { LanguageProps } from "@/data/Languages"
 
 export default function Languages({ language }: { language: LanguageProps }) {
   return (

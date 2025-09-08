@@ -1,10 +1,6 @@
-interface EducationEntryProps {
-  degree: string
-  duration: string
-  university: string
-}
+import type { EducationProps } from "@/data/Education"
 
-export default function EducationEntry({ education }: { education: EducationEntryProps }) {
+export default function EducationEntry({ education }: { education: EducationProps }) {
   return (
     <div id='layout' className="py-1">
 
@@ -21,6 +17,10 @@ export default function EducationEntry({ education }: { education: EducationEntr
           </p>
         </div>
       </div>
+
+      <p className={`flex items-center text-base leading-5`}>
+        {education.equivalency}
+      </p>
 
       <div id='layout' className='flex justify-between'>
         <p className={`flex items-center text-base italic leading-5 text-primary`}>

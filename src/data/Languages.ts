@@ -1,4 +1,15 @@
-const Languages = {
+export type LanguagesProps = {
+  fr: LanguageProps[]
+  en: LanguageProps[]
+}
+
+export type LanguageProps = {
+  language: string
+  level: string
+  percentage: number
+}
+
+const Languages: LanguagesProps = {
   fr: [
     {
       language: "Français",

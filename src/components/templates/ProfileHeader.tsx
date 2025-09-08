@@ -1,17 +1,9 @@
 import { MailIcon, PhoneIcon, LocationMarkerIcon } from '@heroicons/react/outline'
 import { FaLinkedin } from 'react-icons/fa'
 import { FONT_COLOR, HEXA_COLOR } from '@/helpers/constants'
+import type { Profile } from '@/data/Profile'
 
-interface ProfileHeaderProps {
-  name: string
-  occupation: string
-  website: string
-  email: string
-  phone: string
-  location: string
-}
-
-export default function ProfileHeader({ profile }: { profile: ProfileHeaderProps }) {
+export default function ProfileHeader({ profile }: { profile: Profile }) {
   return (
     <div id='layout' className='flex mb-2'>
 
@@ -50,10 +42,17 @@ export default function ProfileHeader({ profile }: { profile: ProfileHeaderProps
             </h3>
           </span>
 
-          <span className='flex items-center'>
+          {/*           <span className='flex items-center'>
             <FaLinkedin className='flex-shrink-0 ml-1.5 mr-0.5 mt-0.5 h-4 w-4 text-black' />
             <h3 className='text-base'>
               {profile.website}
+            </h3>
+          </span> */}
+
+          <span className='flex items-center'>
+            {/*             <PhoneIcon className='flex-shrink-0 ml-1.5 mr-0.5 mt-0.5 h-4 w-4 text-black' /> */}
+            <h3 className='text-base'>
+              {profile.situation}
             </h3>
           </span>
         </div>

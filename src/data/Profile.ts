@@ -1,6 +1,21 @@
 import { JOB_FR, JOB_EN } from "@/helpers/constants"
 
-const Profile = {
+export type ProfileProps = {
+  fr: Profile[]
+  en: Profile[]
+}
+
+export type Profile = {
+  name: string
+  occupation: string
+  website: string
+  email: string
+  phone: string
+  location: string
+  situation: string
+}
+
+const Profile: ProfileProps = {
   fr: [
     {
       name: "Maxime Tournier",
@@ -9,6 +24,7 @@ const Profile = {
       email: "tourniermaxime15@gmail.com",
       phone: "(514) 718-3739",
       location: "Anjou, QC",
+      situation: "Résident Permanent",
     },
   ],
   en: [
@@ -19,6 +35,7 @@ const Profile = {
       email: "tourniermaxime15@gmail.com",
       phone: "(514) 718-3739",
       location: "Anjou, QC",
+      situation: "Permanent resident",
     },
   ],
 }

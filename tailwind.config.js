@@ -25,7 +25,7 @@ module.exports = {
         30: "7.5rem", // 120px
       },
       colors: {
-        primary: "#006ac3",
+        primary: "#00419cff", // Couleurs du CV
       },
     },
   },

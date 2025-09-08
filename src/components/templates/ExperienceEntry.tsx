@@ -1,14 +1,6 @@
-interface ExperienceEntryProps {
-  title: string
-  duration: string
-  employer: string
-  location: string
-  details: {
-    entry: string
-  }[]
-}
+import type { ExperienceProps } from "@/data/Experience"
 
-export default function ExperienceEntry({ experience }: { experience: ExperienceEntryProps }) {
+export default function ExperienceEntry({ experience }: { experience: ExperienceProps }) {
   return (
     <div className='py-1'>
 

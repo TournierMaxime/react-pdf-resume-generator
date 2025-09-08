@@ -1,7 +1,22 @@
-const Experience = {
+export type Experiences = {
+  fr: ExperienceProps[]
+  en: ExperienceProps[]
+}
+
+export type ExperienceProps = {
+  title: string
+  duration: string
+  employer: string
+  location: string
+  details: {
+    entry: string
+  }[]
+}
+
+const Experience: Experiences = {
   fr: [
     {
-      title: "Développeur fullstack",
+      title: "Développeur Full-Stack",
       duration: "Octobre 2024 - Mai 2025",
       employer: "TM Création Apps",
       location: "Toulouse, France",
@@ -12,7 +27,7 @@ const Experience = {
         },
         {
           entry:
-            "Automatiser la publication de contenus sur X via des scripts Node.js et tâches cron, augmentant le nombre d'abonnés de 15% pour la plateforme Speedrunhub.",
+            "Conception d'un Manufacturing Management Software, pour la gestion d'un parc de machine dans la ditribution de colis.",
         },
         {
           entry:
@@ -20,31 +35,31 @@ const Experience = {
         },
         {
           entry:
-            "Assurer une communication efficace avec les parties prenantes et une forte rigueur dans le suivi des livrables.",
+            "Assurer une communication eﬃcace avec les parties prenantes et une forte rigueur dans le suivi des livrables.",
         },
       ],
     },
     {
-      title: "Développeur fullstack",
+      title: "Développeur Full-Stack",
       duration: "Octobre 2022 - Octobre 2024",
       employer: "Devs de France",
       location: "Nice, France",
       details: [
         {
           entry:
+            "Conception d'une interface React pour la prise de commandes d'un robot bar automatisé, utilisé par 20+ clients/semaine.",
+        },
+        {
+          entry:
             "Collaborer en équipe Agile (sprints de 2 semaines, daily, code reviews), livrant en moyenne 2 features majeures par itération.",
         },
         {
           entry:
-            "Développer un back-office contenant 2,3 M de références produits, réduction du temps de réponse des SQL de 40%.",
+            "Migration d'un SaaS e-commerce (2,3 M références) de PHP vers Node.js et React, réduisant le temps de réponse serveur de 40 %.",
         },
         {
           entry:
             "Configurer des conteneurs Docker sur 6 projets, divisant par deux le temps d'onboarding.",
-        },
-        {
-          entry:
-            "Réaliser une interface React tactile pour un robot bar automatisé, utilisée par +100 clients/semaine.",
         },
       ],
     },
