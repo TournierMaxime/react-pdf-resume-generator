@@ -29,12 +29,12 @@ export default function ProfileHeader({ profile }: { profile: Profile }) {
                 {profile.phone}
               </h3>
             </span>
-            <span className='flex items-center'>
+            {/*             <span className='flex items-center'>
               <FaLinkedin className='flex-shrink-0 ml-1.5 mr-0.5 mt-0.5 h-3 w-3 text-black' />
               <h3 className='text-base'>
                 {profile.website}
               </h3>
-            </span>
+            </span> */}
           </div>
         </div>
 

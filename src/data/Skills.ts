@@ -1,47 +1,29 @@
 export const Skills = [
   {
-    skill: "JavaScript",
+    skill: "Windows 10/11",
   },
   {
-    skill: "TypeScript",
+    skill: "macOS",
   },
   {
-    skill: "React",
+    skill: "Linux",
   },
   {
-    skill: "Redux",
-  },
-  {
-    skill: "React Native",
-  },
-  {
-    skill: "Next.js",
-  },
-  {
-    skill: "Node.js",
-  },
-  {
-    skill: "PostGreSQL",
-  },
-  {
-    skill: "MongoDB",
-  },
-  {
-    skill: "Docker",
-  },
-  {
-    skill: "GitHub Actions",
-  },
-  {
-    skill: "Jest",
-  },
-  {
-    skill: "Git",
-  },
-  {
-    skill: "Agile Scrum",
+    skill: "Zendesk",
   },
   {
     skill: "Jira",
+  },
+  {
+    skill: "Office 365",
+  },
+  {
+    skill: "Zoom",
+  },
+  {
+    skill: "TeamViewer",
+  },
+  {
+    skill: "Google Workspace",
   },
 ]
