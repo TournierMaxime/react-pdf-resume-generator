@@ -22,21 +22,21 @@ export default function ProfileHeader({ profile }: { profile: Profile }) {
         {/* Website, Email, and Phone Number */}
         <div id='layout' className='flex flex-col items-end'>
           <span className='flex items-center'>
-            <LocationMarkerIcon className='flex-shrink-0 ml-1.5 mr-0.5 mt-0.5 h-4 w-4 text-black' />
+            {/*             <LocationMarkerIcon className='flex-shrink-0 ml-1.5 mr-0.5 mt-0.5 h-4 w-4 text-black' /> */}
             <h3 className='text-base'>
               {profile.location}
             </h3>
           </span>
 
           <span className='flex items-center'>
-            <MailIcon className='flex-shrink-0 ml-1.5 mr-0.5 mt-0.5 h-4 w-4 text-black' />
+            {/*             <MailIcon className='flex-shrink-0 ml-1.5 mr-0.5 mt-0.5 h-4 w-4 text-black' /> */}
             <h3 className='text-base'>
               {profile.email}
             </h3>
           </span>
 
           <span className='flex items-center'>
-            <PhoneIcon className='flex-shrink-0 ml-1.5 mr-0.5 mt-0.5 h-4 w-4 text-black' />
+            {/*             <PhoneIcon className='flex-shrink-0 ml-1.5 mr-0.5 mt-0.5 h-4 w-4 text-black' /> */}
             <h3 className='text-base'>
               {profile.phone}
             </h3>
