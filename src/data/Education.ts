@@ -15,7 +15,7 @@ const Education: Educations = {
     {
       degree: "Développeur concepteur logiciel",
       equivalency:
-        "Approuvé et reconnu par WES Bachelor's Degree (Ref. 6989499)",
+        "Approuvé et reconnu par WES Bachelor's Degree (Software Developer Designer) (Ref. 6989499)",
       duration: "Mai 2021 - Octobre 2024",
       university: "OpenClassRooms, Paris",
     },
