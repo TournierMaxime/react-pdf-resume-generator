@@ -9,6 +9,9 @@ export const Skills = [
     skill: "React",
   },
   {
+    skill: "Redux",
+  },
+  {
     skill: "React Native",
   },
   {
