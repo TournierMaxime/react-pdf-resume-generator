@@ -35,7 +35,7 @@ const Experience: Experiences = {
         },
         {
           entry:
-            "Assurer une communication eﬃcace avec les parties prenantes et une forte rigueur dans le suivi des livrables.",
+            "Organiser et prioriser efficacement les tâches avec JIRA comme gestionnaire de projet.",
         },
       ],
     },
@@ -51,7 +51,7 @@ const Experience: Experiences = {
         },
         {
           entry:
-            "Collaborer en équipe Agile (sprints de 2 semaines, daily, code reviews), livrant en moyenne 2 features majeures par itération.",
+            "Collaborer en équipe Agile SCRUM (sprints de 2 semaines, daily, code reviews), livrant en moyenne 2 features majeures par itération.",
         },
         {
           entry:
