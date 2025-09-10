@@ -1,4 +1,5 @@
-const JOB_FR = "Développeur fullstack"
+const JOB_FR =
+  "Développeur principal Full-Stack – Commerce électronique (Télétravail)"
 
 const JOB_EN = "Intermediate Software Developer (22692)"
 

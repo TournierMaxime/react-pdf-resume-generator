@@ -18,6 +18,9 @@ export const Skills = [
     skill: "Next.js",
   },
   {
+    skill: "Tailwind",
+  },
+  {
     skill: "Node.js",
   },
   {
