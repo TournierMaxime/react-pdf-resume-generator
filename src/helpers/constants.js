@@ -1,5 +1,4 @@
-const JOB_FR =
-  "Développeur principal Full-Stack – Commerce électronique (Télétravail)"
+const JOB_FR = "Développeur React Saguenay"
 
 const JOB_EN = "Intermediate Software Developer (22692)"
 
@@ -13,7 +12,7 @@ const BG_COLOR = "bg-red-500"
 
 const FONT_COLOR = "text-red-500"
 
-const HEXA_COLOR = "#F54927"
+const HEXA_COLOR = "#E11937"
 
 export {
   JOB_FR,
